@@ -1,0 +1,15 @@
+{
+    "name": "gabriel.rodrigues/testes-codeexpert",
+    "autoload": {
+        "psr-4": {
+            "Code\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
